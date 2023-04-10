@@ -26,7 +26,7 @@ Partial Class Viewer
         'Initialize Spire License Key
         'Spire.License.LicenseProvider.SetLicenseFile(licenseFile)
 
-        Spire.License.LicenseProvider.SetLicenseKey(key)
+
 
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
