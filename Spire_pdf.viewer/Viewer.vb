@@ -9,12 +9,17 @@ Public Class Viewer
     Private Sub Viewer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Spire.License.LicenseProvider.SetLicenseKey(key)
         Try
+
             PdfViewer1.LoadFromFile("..\..\..\Reference\sample.pdf")
             PdfViewer1.Height = Panel1.Height
             PdfViewer1.Width = Panel1.Width
+
         Catch ex As Exception
+
             MsgBox(ex)
+
         Finally
+
             PdfViewer1 = Nothing
         End Try
     End Sub
