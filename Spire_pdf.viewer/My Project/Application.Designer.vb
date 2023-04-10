@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Spire_pdf.viewer.Document
+            Me.MainForm = Global.Spire_pdf.viewer.Viewer
         End Sub
     End Class
 End Namespace
